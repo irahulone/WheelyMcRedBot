@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000661] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.000872] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.001739] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002289] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.034583] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[0.051311] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.099532] (-) TimerEvent: {}
+[0.200430] (-) TimerEvent: {}
+[0.301134] (-) TimerEvent: {}
+[0.401762] (-) TimerEvent: {}
+[0.502386] (-) TimerEvent: {}
+[0.603022] (-) TimerEvent: {}
+[0.691614] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'cmake'}
+[0.703112] (-) TimerEvent: {}
+[0.803778] (-) TimerEvent: {}
+[0.822777] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'build'}
+[0.824224] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-i/ros2_ws/build/rover_launch', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-i/ros2_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2108'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1645'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:49922'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2143,unix/pioneer-i:/tmp/.ICE-unix/2143'), ('INVOCATION_ID', '97f5e540de8a47a1a351ef3ad2553431'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d02ca6fe_fedf_497a_acb9_e6723ad75507'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws_new/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[0.840534] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.903927] (-) TimerEvent: {}
+[0.979133] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[0.979774] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2108'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1645'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:49922'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2143,unix/pioneer-i:/tmp/.ICE-unix/2143'), ('INVOCATION_ID', '97f5e540de8a47a1a351ef3ad2553431'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d02ca6fe_fedf_497a_acb9_e6723ad75507'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws_new/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.004179] (-) TimerEvent: {}
+[1.104871] (-) TimerEvent: {}
+[1.176110] (rover_launch) CommandEnded: {'returncode': 0}
+[1.205418] (-) TimerEvent: {}
+[1.217941] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'install'}
+[1.242968] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-i/ros2_ws/build/rover_launch'], 'cwd': '/home/pioneer-i/ros2_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2108'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1645'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:49922'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2143,unix/pioneer-i:/tmp/.ICE-unix/2143'), ('INVOCATION_ID', '97f5e540de8a47a1a351ef3ad2553431'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d02ca6fe_fedf_497a_acb9_e6723ad75507'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws_new/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.305605] (-) TimerEvent: {}
+[1.319370] (rover_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.319938] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch\n'}
+[1.320242] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py\n'}
+[1.320493] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch\n'}
+[1.320796] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch\n'}
+[1.321164] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh\n'}
+[1.321382] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv\n'}
+[1.321536] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.sh\n'}
+[1.321704] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.dsv\n'}
+[1.321844] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.bash\n'}
+[1.321977] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.sh\n'}
+[1.322105] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.zsh\n'}
+[1.322234] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.dsv\n'}
+[1.322361] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.dsv\n'}
+[1.322526] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch\n'}
+[1.322658] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake\n'}
+[1.322790] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake\n'}
+[1.322921] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.xml\n'}
+[1.325516] (rover_launch) CommandEnded: {'returncode': 0}
+[1.373261] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[1.405774] (-) TimerEvent: {}
+[1.493982] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 0}
+[1.505853] (-) TimerEvent: {}
+[1.606401] (-) TimerEvent: {}
+[1.707021] (-) TimerEvent: {}
+[1.807644] (-) TimerEvent: {}
+[1.908281] (-) TimerEvent: {}
+[2.008936] (-) TimerEvent: {}
+[2.072613] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/pioneer-i/ros2_ws/build/locomotion_core/build', 'install', '--record', '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-i/ros2_ws/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-i', 'SSH_AGENT_PID': '2108', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-i', 'OLDPWD': '/home/pioneer-i', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1645', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pioneer-i/ros2_ws_new/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-i', 'JOURNAL_STREAM': '7:49922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-i:@/tmp/.ICE-unix/2143,unix/pioneer-i:/tmp/.ICE-unix/2143', 'INVOCATION_ID': '97f5e540de8a47a1a351ef3ad2553431', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d02ca6fe_fedf_497a_acb9_e6723ad75507', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.92', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-i/ros2_ws/build/locomotion_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-i/ros2_ws/build/locomotion_core/prefix_override:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rover_launch'}, 'shell': False}
+[2.109091] (-) TimerEvent: {}
+[2.209798] (-) TimerEvent: {}
+[2.310419] (-) TimerEvent: {}
+[2.411035] (-) TimerEvent: {}
+[2.505872] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.507086] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[2.508109] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[2.508515] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[2.508823] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[2.509099] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[2.511094] (-) TimerEvent: {}
+[2.573630] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[2.611268] (-) TimerEvent: {}
+[2.648350] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[2.648903] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[2.649111] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[2.649383] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[2.651277] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[2.654436] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[2.655345] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.658637] (locomotion_core) StdoutLine: {'line': b"removing '/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.659331] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[2.661847] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[2.696334] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.696806] (locomotion_core) StdoutLine: {'line': b'Installing movebase_kinematics script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core\n'}
+[2.697628] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log'\n"}
+[2.711410] (-) TimerEvent: {}
+[2.763693] (locomotion_core) CommandEnded: {'returncode': 0}
+[2.780970] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[2.811560] (-) TimerEvent: {}
+[2.912206] (-) TimerEvent: {}
+[3.012882] (-) TimerEvent: {}
+[3.113551] (-) TimerEvent: {}
+[3.214190] (-) TimerEvent: {}
+[3.314855] (-) TimerEvent: {}
+[3.415520] (-) TimerEvent: {}
+[3.516189] (-) TimerEvent: {}
+[3.616854] (-) TimerEvent: {}
+[3.717529] (-) TimerEvent: {}
+[3.818199] (-) TimerEvent: {}
+[3.918886] (-) TimerEvent: {}
+[4.019553] (-) TimerEvent: {}
+[4.120200] (-) TimerEvent: {}
+[4.220853] (-) TimerEvent: {}
+[4.321544] (-) TimerEvent: {}
+[4.422218] (-) TimerEvent: {}
+[4.522878] (-) TimerEvent: {}
+[4.623559] (-) TimerEvent: {}
+[4.767318] (-) TimerEvent: {}
+[4.868029] (-) TimerEvent: {}
+[4.968690] (-) TimerEvent: {}
+[5.069386] (-) TimerEvent: {}
+[5.170064] (-) TimerEvent: {}
+[5.270745] (-) TimerEvent: {}
+[5.371428] (-) TimerEvent: {}
+[5.472098] (-) TimerEvent: {}
+[5.572779] (-) TimerEvent: {}
+[5.673475] (-) TimerEvent: {}
+[5.774159] (-) TimerEvent: {}
+[5.874852] (-) TimerEvent: {}
+[5.975543] (-) TimerEvent: {}
+[6.076233] (-) TimerEvent: {}
+[6.176935] (-) TimerEvent: {}
+[6.277665] (-) TimerEvent: {}
+[6.378360] (-) TimerEvent: {}
+[6.479053] (-) TimerEvent: {}
+[6.579759] (-) TimerEvent: {}
+[6.680464] (-) TimerEvent: {}
+[6.781164] (-) TimerEvent: {}
+[6.881871] (-) TimerEvent: {}
+[6.982555] (-) TimerEvent: {}
+[7.083230] (-) TimerEvent: {}
+[7.183904] (-) TimerEvent: {}
+[7.284608] (-) TimerEvent: {}
+[7.385333] (-) TimerEvent: {}
+[7.486023] (-) TimerEvent: {}
+[7.586710] (-) TimerEvent: {}
+[7.687404] (-) TimerEvent: {}
+[7.788091] (-) TimerEvent: {}
+[7.888779] (-) TimerEvent: {}
+[7.989460] (-) TimerEvent: {}
+[8.090106] (-) TimerEvent: {}
+[8.190798] (-) TimerEvent: {}
+[8.291502] (-) TimerEvent: {}
+[8.392211] (-) TimerEvent: {}
+[8.492947] (-) TimerEvent: {}
+[8.593704] (-) TimerEvent: {}
+[8.694425] (-) TimerEvent: {}
+[8.795125] (-) TimerEvent: {}
+[8.895827] (-) TimerEvent: {}
+[8.996501] (-) TimerEvent: {}
+[9.097151] (-) TimerEvent: {}
+[9.197844] (-) TimerEvent: {}
+[9.298554] (-) TimerEvent: {}
+[9.399244] (-) TimerEvent: {}
+[9.499950] (-) TimerEvent: {}
+[9.600661] (-) TimerEvent: {}
+[9.701355] (-) TimerEvent: {}
+[9.861345] (-) TimerEvent: {}
+[9.961906] (-) TimerEvent: {}
+[10.062548] (-) TimerEvent: {}
+[10.163179] (-) TimerEvent: {}
+[10.263822] (-) TimerEvent: {}
+[10.364422] (-) TimerEvent: {}
+[10.464988] (-) TimerEvent: {}
+[10.565594] (-) TimerEvent: {}
+[10.666197] (-) TimerEvent: {}
+[10.766835] (-) TimerEvent: {}
+[10.867457] (-) TimerEvent: {}
+[10.968087] (-) TimerEvent: {}
+[11.068710] (-) TimerEvent: {}
+[11.169346] (-) TimerEvent: {}
+[11.269938] (-) TimerEvent: {}
+[11.370533] (-) TimerEvent: {}
+[11.471079] (-) TimerEvent: {}
+[11.571551] (-) TimerEvent: {}
+[11.672116] (-) TimerEvent: {}
+[11.772667] (-) TimerEvent: {}
+[11.873187] (-) TimerEvent: {}
+[11.973791] (-) TimerEvent: {}
+[12.074398] (-) TimerEvent: {}
+[12.174986] (-) TimerEvent: {}
+[12.275584] (-) TimerEvent: {}
+[12.376177] (-) TimerEvent: {}
+[12.476766] (-) TimerEvent: {}
+[12.577406] (-) TimerEvent: {}
+[12.678041] (-) TimerEvent: {}
+[12.778681] (-) TimerEvent: {}
+[12.879311] (-) TimerEvent: {}
+[12.979894] (-) TimerEvent: {}
+[13.080474] (-) TimerEvent: {}
+[13.181123] (-) TimerEvent: {}
+[13.281725] (-) TimerEvent: {}
+[13.382295] (-) TimerEvent: {}
+[13.482854] (-) TimerEvent: {}
+[13.583340] (-) TimerEvent: {}
+[13.683813] (-) TimerEvent: {}
+[13.784372] (-) TimerEvent: {}
+[13.885045] (-) TimerEvent: {}
+[13.985780] (-) TimerEvent: {}
+[14.086570] (-) TimerEvent: {}
+[14.187338] (-) TimerEvent: {}
+[14.288081] (-) TimerEvent: {}
+[14.388839] (-) TimerEvent: {}
+[14.489611] (-) TimerEvent: {}
+[14.590333] (-) TimerEvent: {}
+[14.691132] (-) TimerEvent: {}
+[14.792082] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[14.792654] (-) TimerEvent: {}
+[14.893114] (-) TimerEvent: {}
+[14.993745] (-) TimerEvent: {}
+[15.094403] (-) TimerEvent: {}
+[15.195046] (-) TimerEvent: {}
+[15.295723] (-) TimerEvent: {}
+[15.396402] (-) TimerEvent: {}
+[15.493566] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[15.496461] (-) TimerEvent: {}
+[15.596869] (-) TimerEvent: {}
+[15.685268] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[15.697052] (-) TimerEvent: {}
+[15.797647] (-) TimerEvent: {}
+[15.898309] (-) TimerEvent: {}
+[15.999054] (-) TimerEvent: {}
+[16.099710] (-) TimerEvent: {}
+[16.200359] (-) TimerEvent: {}
+[16.301041] (-) TimerEvent: {}
+[16.401706] (-) TimerEvent: {}
+[16.502374] (-) TimerEvent: {}
+[16.581156] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[16.602466] (-) TimerEvent: {}
+[16.702956] (-) TimerEvent: {}
+[16.724884] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[16.773773] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[16.774638] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'], 'cwd': '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2108'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1645'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:49922'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2143,unix/pioneer-i:/tmp/.ICE-unix/2143'), ('INVOCATION_ID', '97f5e540de8a47a1a351ef3ad2553431'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d02ca6fe_fedf_497a_acb9_e6723ad75507'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws_new/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws_new/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws_new/install/teleop_twist_joy:/home/pioneer-i/ros2_ws_new/install/rover_launch:/home/pioneer-i/ros2_ws_new/install/rsl_roboteq:/home/pioneer-i/ros2_ws_new/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[16.803076] (-) TimerEvent: {}
+[16.903567] (-) TimerEvent: {}
+[16.934661] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.935206] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[16.944356] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[16.944711] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[16.945722] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[16.946019] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include\n'}
+[16.946291] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[16.946626] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[16.946823] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[16.947045] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[16.947237] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[16.947461] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[16.947680] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[16.947898] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.yaml\n'}
+[16.948142] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[16.948314] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[16.948530] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[16.948750] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[16.948974] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[16.949148] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[16.949285] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[16.949434] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[16.949580] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[16.949722] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[16.949862] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[16.950015] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[16.950160] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[16.950316] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[16.950459] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[16.950597] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[16.950725] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[16.950866] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[16.951007] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[16.951152] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.951297] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.951427] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[16.951592] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[16.951720] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[16.954919] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[17.003773] (-) TimerEvent: {}
+[17.104397] (-) TimerEvent: {}
+[17.107333] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[17.109166] (-) EventReactorShutdown: {}

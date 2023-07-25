@@ -1,0 +1,36 @@
+[0.628s] Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pioneer-i/ros2_ws/src/rover_launch -DCMAKE_INSTALL_PREFIX=/home/pioneer-i/ros2_ws/install/rover_launch
+[0.806s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.008s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.008s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.855s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.104s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.107s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.108s] -- Added test 'lint_cmake' to check CMake code style
+[2.109s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.112s] -- Added test 'xmllint' to check XML markup files
+[2.116s] -- Configuring done
+[2.121s] -- Generating done
+[2.122s] -- Build files have been written to: /home/pioneer-i/ros2_ws/build/rover_launch
+[2.128s] Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/pioneer-i/ros2_ws/src/rover_launch -DCMAKE_INSTALL_PREFIX=/home/pioneer-i/ros2_ws/install/rover_launch
+[2.134s] Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rover_launch -- -j6 -l6
+[2.210s] Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rover_launch -- -j6 -l6
+[2.254s] Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rover_launch
+[2.272s] -- Install configuration: ""
+[2.272s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch
+[2.272s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+[2.272s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+[2.273s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+[2.273s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+[2.273s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+[2.273s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.sh
+[2.274s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.dsv
+[2.274s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.bash
+[2.275s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.sh
+[2.275s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.zsh
+[2.275s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.dsv
+[2.275s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.dsv
+[2.276s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+[2.276s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+[2.276s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+[2.277s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.xml
+[2.289s] Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rover_launch

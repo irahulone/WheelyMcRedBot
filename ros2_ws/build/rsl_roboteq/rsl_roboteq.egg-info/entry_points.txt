@@ -1,0 +1,3 @@
+[console_scripts]
+roboteq_node = rsl_roboteq.roboteq_node:main
+
