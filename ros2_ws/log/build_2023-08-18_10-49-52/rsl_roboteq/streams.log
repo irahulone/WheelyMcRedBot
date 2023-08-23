@@ -1,0 +1,21 @@
+[2.508s] Invoking command in '/home/pioneer-i/ros2_ws/src/rsl_roboteq': PYTHONPATH=/home/pioneer-i/ros2_ws/build/rsl_roboteq/prefix_override:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_roboteq build --build-base /home/pioneer-i/ros2_ws/build/rsl_roboteq/build install --record /home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log --single-version-externally-managed
+[2.977s] running egg_info
+[2.979s] writing ../../build/rsl_roboteq/rsl_roboteq.egg-info/PKG-INFO
+[2.980s] writing dependency_links to ../../build/rsl_roboteq/rsl_roboteq.egg-info/dependency_links.txt
+[2.981s] writing entry points to ../../build/rsl_roboteq/rsl_roboteq.egg-info/entry_points.txt
+[2.981s] writing requirements to ../../build/rsl_roboteq/rsl_roboteq.egg-info/requires.txt
+[2.981s] writing top-level names to ../../build/rsl_roboteq/rsl_roboteq.egg-info/top_level.txt
+[3.049s] reading manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+[3.050s] writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+[3.063s] running build
+[3.063s] running build_py
+[3.063s] running install
+[3.064s] running install_lib
+[3.064s] running install_data
+[3.064s] running install_egg_info
+[3.064s] removing '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq-0.0.0-py3.8.egg-info' (and everything under it)
+[3.064s] Copying ../../build/rsl_roboteq/rsl_roboteq.egg-info to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq-0.0.0-py3.8.egg-info
+[3.073s] running install_scripts
+[3.119s] Installing roboteq_node script to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/rsl_roboteq
+[3.121s] writing list of installed files to '/home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log'
+[3.211s] Invoked command in '/home/pioneer-i/ros2_ws/src/rsl_roboteq' returned '0': PYTHONPATH=/home/pioneer-i/ros2_ws/build/rsl_roboteq/prefix_override:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_roboteq build --build-base /home/pioneer-i/ros2_ws/build/rsl_roboteq/build install --record /home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log --single-version-externally-managed

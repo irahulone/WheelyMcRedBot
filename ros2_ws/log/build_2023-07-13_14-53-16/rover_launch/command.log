@@ -1,0 +1,2 @@
+Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': /usr/bin/cmake /home/pioneer-i/ros2_ws/src/rover_launch -DCMAKE_INSTALL_PREFIX=/home/pioneer-i/ros2_ws/install/rover_launch
+Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '1': /usr/bin/cmake /home/pioneer-i/ros2_ws/src/rover_launch -DCMAKE_INSTALL_PREFIX=/home/pioneer-i/ros2_ws/install/rover_launch

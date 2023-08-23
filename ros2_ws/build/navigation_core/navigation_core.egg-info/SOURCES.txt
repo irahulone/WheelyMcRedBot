@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/navigation_core/navigation_core.egg-info/PKG-INFO
+../../build/navigation_core/navigation_core.egg-info/SOURCES.txt
+../../build/navigation_core/navigation_core.egg-info/dependency_links.txt
+../../build/navigation_core/navigation_core.egg-info/entry_points.txt
+../../build/navigation_core/navigation_core.egg-info/requires.txt
+../../build/navigation_core/navigation_core.egg-info/top_level.txt
+../../build/navigation_core/navigation_core.egg-info/zip-safe
+navigation_core/__init__.py
+navigation_core/process_scan.py
+resource/navigation_core
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

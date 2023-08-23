@@ -1,0 +1,25 @@
+[1.949s] Invoking command in '/home/pioneer-i/ros2_ws/src/locomotion_core': PYTHONPATH=/home/pioneer-i/ros2_ws/build/locomotion_core/prefix_override:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/pioneer-i/ros2_ws/build/locomotion_core/build install --record /home/pioneer-i/ros2_ws/build/locomotion_core/install.log --single-version-externally-managed
+[2.376s] running egg_info
+[2.377s] writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[2.378s] writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[2.378s] writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[2.379s] writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[2.379s] writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[2.447s] reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[2.447s] writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[2.448s] running build
+[2.448s] running build_py
+[2.449s] copying locomotion_core/movebase_kinematics.py -> /home/pioneer-i/ros2_ws/build/locomotion_core/build/lib/locomotion_core
+[2.449s] running install
+[2.451s] running install_lib
+[2.453s] copying /home/pioneer-i/ros2_ws/build/locomotion_core/build/lib/locomotion_core/movebase_kinematics.py -> /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[2.454s] byte-compiling /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/movebase_kinematics.py to movebase_kinematics.cpython-38.pyc
+[2.457s] running install_data
+[2.458s] running install_egg_info
+[2.461s] removing '/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)
+[2.462s] Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[2.464s] running install_scripts
+[2.499s] Installing cmd_roboteq script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core
+[2.499s] Installing movebase_kinematics script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core
+[2.500s] writing list of installed files to '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log'
+[2.592s] Invoked command in '/home/pioneer-i/ros2_ws/src/locomotion_core' returned '0': PYTHONPATH=/home/pioneer-i/ros2_ws/build/locomotion_core/prefix_override:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/pioneer-i/ros2_ws/build/locomotion_core/build install --record /home/pioneer-i/ros2_ws/build/locomotion_core/install.log --single-version-externally-managed

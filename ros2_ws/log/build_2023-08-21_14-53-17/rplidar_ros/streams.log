@@ -1,0 +1,53 @@
+[2.084s] Invoking command in '/home/pioneer-i/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rplidar_ros -- -j6 -l6
+[2.797s] [ 46%] Built target rplidar_node
+[2.800s] [ 53%] Built target rplidar_client
+[2.805s] [100%] Built target rplidar_composition
+[2.831s] Invoked command in '/home/pioneer-i/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rplidar_ros -- -j6 -l6
+[2.973s] Invoking command in '/home/pioneer-i/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rplidar_ros
+[3.055s] -- Install configuration: ""
+[3.055s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch
+[3.057s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[3.058s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[3.058s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[3.058s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[3.058s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[3.059s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[3.059s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[3.059s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[3.059s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[3.059s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[3.060s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[3.060s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[3.060s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[3.061s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[3.061s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[3.061s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[3.061s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[3.061s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[3.062s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[3.063s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[3.065s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[3.070s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[3.071s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[3.071s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[3.071s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[3.071s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[3.072s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[3.084s] -- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[3.084s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[3.084s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.084s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.084s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[3.085s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[3.085s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[3.085s] Invoked command in '/home/pioneer-i/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rplidar_ros

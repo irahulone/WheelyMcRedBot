@@ -1,0 +1,21 @@
+[2.655s] Invoking command in '/home/pioneer-i/ros2_ws/src/locomotion_core': PYTHONPATH=/home/pioneer-i/ros2_ws/build/locomotion_core/prefix_override:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/pioneer-i/ros2_ws/build/locomotion_core/build install --record /home/pioneer-i/ros2_ws/build/locomotion_core/install.log --single-version-externally-managed
+[3.035s] running egg_info
+[3.036s] writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[3.037s] writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[3.037s] writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[3.038s] writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[3.038s] writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[3.243s] reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[3.383s] writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[3.383s] running build
+[3.384s] running build_py
+[3.384s] running install
+[3.386s] running install_lib
+[3.389s] running install_data
+[3.390s] running install_egg_info
+[3.393s] removing '/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)
+[3.395s] Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[3.398s] running install_scripts
+[3.433s] Installing cmd_roboteq script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core
+[3.434s] Installing movebase_kinematics script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core
+[3.435s] writing list of installed files to '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log'

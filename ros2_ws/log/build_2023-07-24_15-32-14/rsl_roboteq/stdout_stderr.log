@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rsl_roboteq/rsl_roboteq.egg-info
+writing ../../build/rsl_roboteq/rsl_roboteq.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsl_roboteq/rsl_roboteq.egg-info/dependency_links.txt
+writing entry points to ../../build/rsl_roboteq/rsl_roboteq.egg-info/entry_points.txt
+writing requirements to ../../build/rsl_roboteq/rsl_roboteq.egg-info/requires.txt
+writing top-level names to ../../build/rsl_roboteq/rsl_roboteq.egg-info/top_level.txt
+writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+reading manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pioneer-i/ros2_ws/build/rsl_roboteq/build
+creating /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib
+creating /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib/rsl_roboteq
+copying rsl_roboteq/__init__.py -> /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib/rsl_roboteq
+copying rsl_roboteq/cmd_roboteq.py -> /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib/rsl_roboteq
+running install
+running install_lib
+creating /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq
+copying /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib/rsl_roboteq/__init__.py -> /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq
+copying /home/pioneer-i/ros2_ws/build/rsl_roboteq/build/lib/rsl_roboteq/cmd_roboteq.py -> /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq
+byte-compiling /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc
+running install_data
+creating /home/pioneer-i/ros2_ws/install/rsl_roboteq/share/ament_index
+creating /home/pioneer-i/ros2_ws/install/rsl_roboteq/share/ament_index/resource_index
+creating /home/pioneer-i/ros2_ws/install/rsl_roboteq/share/ament_index/resource_index/packages
+copying resource/rsl_roboteq -> /home/pioneer-i/ros2_ws/install/rsl_roboteq/share/ament_index/resource_index/packages
+copying package.xml -> /home/pioneer-i/ros2_ws/install/rsl_roboteq/share/rsl_roboteq
+running install_egg_info
+Copying ../../build/rsl_roboteq/rsl_roboteq.egg-info to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cmd_roboteq script to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/rsl_roboteq
+writing list of installed files to '/home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log'

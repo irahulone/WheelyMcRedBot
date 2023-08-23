@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/navigation_core/navigation_core.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation_core/navigation_core.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation_core/navigation_core.egg-info/entry_points.txt
+writing requirements to ../../build/navigation_core/navigation_core.egg-info/requires.txt
+writing top-level names to ../../build/navigation_core/navigation_core.egg-info/top_level.txt
+reading manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core
+running install
+running install_lib
+copying /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core
+byte-compiling /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/process_scan.py to process_scan.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/navigation_core/navigation_core.egg-info to /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info
+running install_scripts
+Installing lidar_node script to /home/pioneer-i/ros2_ws/install/navigation_core/lib/navigation_core
+writing list of installed files to '/home/pioneer-i/ros2_ws/build/navigation_core/install.log'

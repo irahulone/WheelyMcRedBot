@@ -1,0 +1,3 @@
+[console_scripts]
+lidar_node = navigation_core.process_scan:main
+

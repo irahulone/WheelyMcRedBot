@@ -1,0 +1,22 @@
+[1.065s] Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rover_launch -- -j6 -l6
+[1.605s] Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/rover_launch -- -j6 -l6
+[1.715s] Invoking command in '/home/pioneer-i/ros2_ws/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rover_launch
+[1.748s] -- Install configuration: ""
+[1.748s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch
+[1.749s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+[1.750s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+[1.751s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+[1.751s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+[1.752s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+[1.753s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.sh
+[1.754s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.dsv
+[1.755s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.bash
+[1.756s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.sh
+[1.756s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.zsh
+[1.757s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.dsv
+[1.758s] -- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.dsv
+[1.759s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+[1.763s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+[1.764s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+[1.764s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.xml
+[1.782s] Invoked command in '/home/pioneer-i/ros2_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/rover_launch

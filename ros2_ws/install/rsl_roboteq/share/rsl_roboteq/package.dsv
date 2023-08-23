@@ -1,0 +1,6 @@
+source;share/rsl_roboteq/hook/pythonpath.ps1
+source;share/rsl_roboteq/hook/pythonpath.dsv
+source;share/rsl_roboteq/hook/pythonpath.sh
+source;share/rsl_roboteq/hook/ament_prefix_path.ps1
+source;share/rsl_roboteq/hook/ament_prefix_path.dsv
+source;share/rsl_roboteq/hook/ament_prefix_path.sh

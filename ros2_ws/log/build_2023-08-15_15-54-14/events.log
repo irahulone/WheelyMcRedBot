@@ -1,0 +1,959 @@
+[0.000000] (-) TimerEvent: {}
+[0.000682] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001489] (navigation_core) JobQueued: {'identifier': 'navigation_core', 'dependencies': OrderedDict()}
+[0.001835] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.002358] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002468] (rsl_roboteq) JobQueued: {'identifier': 'rsl_roboteq', 'dependencies': OrderedDict()}
+[0.002531] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002610] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.033583] (navigation_core) JobStarted: {'identifier': 'navigation_core'}
+[0.055713] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[0.073035] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.091700] (rsl_roboteq) JobStarted: {'identifier': 'rsl_roboteq'}
+[0.100606] (-) TimerEvent: {}
+[0.114553] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.200893] (-) TimerEvent: {}
+[0.301789] (-) TimerEvent: {}
+[0.402524] (-) TimerEvent: {}
+[0.503193] (-) TimerEvent: {}
+[0.603906] (-) TimerEvent: {}
+[0.704777] (-) TimerEvent: {}
+[0.805661] (-) TimerEvent: {}
+[0.906373] (-) TimerEvent: {}
+[1.007067] (-) TimerEvent: {}
+[1.099276] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'cmake'}
+[1.101296] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'build'}
+[1.103367] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-i/ros2_ws/build/rover_launch', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-i/ros2_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.107159] (-) TimerEvent: {}
+[1.118518] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.119160] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/pioneer-i/ros2_ws/src/rplidar_ros', '-DCMAKE_INSTALL_PREFIX=/home/pioneer-i/ros2_ws/install/rplidar_ros'], 'cwd': '/home/pioneer-i/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.207440] (-) TimerEvent: {}
+[1.308394] (-) TimerEvent: {}
+[1.409020] (-) TimerEvent: {}
+[1.509655] (-) TimerEvent: {}
+[1.610428] (-) TimerEvent: {}
+[1.613407] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.614834] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[1.615468] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.628742] (rover_launch) CommandEnded: {'returncode': 0}
+[1.707493] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'install'}
+[1.711052] (-) TimerEvent: {}
+[1.734557] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-i/ros2_ws/build/rover_launch'], 'cwd': '/home/pioneer-i/ros2_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.753554] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.757527] (rover_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.758222] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch\n'}
+[1.758453] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py\n'}
+[1.758648] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch\n'}
+[1.758839] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch\n'}
+[1.759016] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh\n'}
+[1.759274] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv\n'}
+[1.759452] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.sh\n'}
+[1.759624] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/environment/path.dsv\n'}
+[1.759803] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.bash\n'}
+[1.759947] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.sh\n'}
+[1.760087] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.zsh\n'}
+[1.760334] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/local_setup.dsv\n'}
+[1.760479] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.dsv\n'}
+[1.760701] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch\n'}
+[1.760863] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake\n'}
+[1.761005] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake\n'}
+[1.761142] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/rover_launch/share/rover_launch/package.xml\n'}
+[1.774754] (rover_launch) CommandEnded: {'returncode': 0}
+[1.795820] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[1.811700] (-) TimerEvent: {}
+[1.852321] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[1.881639] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[1.914831] (-) TimerEvent: {}
+[1.938850] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 0}
+[1.958301] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[1.958821] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'], 'cwd': '/home/pioneer-i/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[1.978973] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.979522] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[1.979856] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[1.980324] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include\n'}
+[1.980594] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[1.980847] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[1.981109] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[1.981359] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[1.981600] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[1.981829] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[1.982142] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[1.982384] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.yaml\n'}
+[1.982609] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[1.982905] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[1.983062] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[1.983295] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[1.983536] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[1.983772] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[1.983924] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[1.984158] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[1.984409] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[1.984676] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[1.984911] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[1.985147] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[1.985605] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[1.986969] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[1.987300] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[1.988376] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[1.988609] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[1.989182] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[1.989897] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[1.990458] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.990838] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.991412] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[1.991644] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[1.991836] (teleop_twist_joy) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[2.008649] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[2.015008] (-) TimerEvent: {}
+[2.116292] (-) TimerEvent: {}
+[2.118731] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[2.216427] (-) TimerEvent: {}
+[2.317082] (-) TimerEvent: {}
+[2.417719] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.418279] (-) TimerEvent: {}
+[2.435651] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.518615] (-) TimerEvent: {}
+[2.520773] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/pioneer-i/ros2_ws/build/locomotion_core/build', 'install', '--record', '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-i/ros2_ws/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-i', 'SSH_AGENT_PID': '2165', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-i', 'OLDPWD': '/home/pioneer-i', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1692', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-i', 'JOURNAL_STREAM': '7:52601', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200', 'INVOCATION_ID': '10d362ca0ab242bd9fcc7fa7db85af36', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-i/ros2_ws/build/locomotion_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-i/ros2_ws/build/locomotion_core/prefix_override:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch'}, 'shell': False}
+[2.532462] (navigation_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_core', 'build', '--build-base', '/home/pioneer-i/ros2_ws/build/navigation_core/build', 'install', '--record', '/home/pioneer-i/ros2_ws/build/navigation_core/install.log', '--install-scripts', '$base/lib/navigation_core', '--single-version-externally-managed'], 'cwd': '/home/pioneer-i/ros2_ws/src/navigation_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-i', 'SSH_AGENT_PID': '2165', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-i', 'OLDPWD': '/home/pioneer-i', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1692', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-i', 'JOURNAL_STREAM': '7:52601', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200', 'INVOCATION_ID': '10d362ca0ab242bd9fcc7fa7db85af36', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-i/ros2_ws/build/navigation_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-i/ros2_ws/build/navigation_core/prefix_override:/home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch'}, 'shell': False}
+[2.545226] (rsl_roboteq) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rsl_roboteq', 'build', '--build-base', '/home/pioneer-i/ros2_ws/build/rsl_roboteq/build', 'install', '--record', '/home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-i/ros2_ws/src/rsl_roboteq', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-i', 'SSH_AGENT_PID': '2165', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-i', 'OLDPWD': '/home/pioneer-i', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1692', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-i', 'JOURNAL_STREAM': '7:52601', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200', 'INVOCATION_ID': '10d362ca0ab242bd9fcc7fa7db85af36', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-i/ros2_ws/build/rsl_roboteq', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-i/ros2_ws/build/rsl_roboteq/prefix_override:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch'}, 'shell': False}
+[2.618816] (-) TimerEvent: {}
+[2.669884] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.719225] (-) TimerEvent: {}
+[2.809758] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.819372] (-) TimerEvent: {}
+[2.920029] (-) TimerEvent: {}
+[2.981625] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.982977] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[2.984108] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[2.984528] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[2.984827] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[2.985102] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[2.996061] (navigation_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.996601] (rsl_roboteq) StdoutLine: {'line': b'running egg_info\n'}
+[2.997378] (navigation_core) StdoutLine: {'line': b'creating ../../build/navigation_core/navigation_core.egg-info\n'}
+[2.997803] (rsl_roboteq) StdoutLine: {'line': b'writing ../../build/rsl_roboteq/rsl_roboteq.egg-info/PKG-INFO\n'}
+[2.998537] (navigation_core) StdoutLine: {'line': b'writing ../../build/navigation_core/navigation_core.egg-info/PKG-INFO\n'}
+[3.000082] (rsl_roboteq) StdoutLine: {'line': b'writing dependency_links to ../../build/rsl_roboteq/rsl_roboteq.egg-info/dependency_links.txt\n'}
+[3.000514] (rsl_roboteq) StdoutLine: {'line': b'writing entry points to ../../build/rsl_roboteq/rsl_roboteq.egg-info/entry_points.txt\n'}
+[3.013665] (navigation_core) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_core/navigation_core.egg-info/dependency_links.txt\n'}
+[3.014210] (navigation_core) StdoutLine: {'line': b'writing entry points to ../../build/navigation_core/navigation_core.egg-info/entry_points.txt\n'}
+[3.014404] (navigation_core) StdoutLine: {'line': b'writing requirements to ../../build/navigation_core/navigation_core.egg-info/requires.txt\n'}
+[3.023340] (-) TimerEvent: {}
+[3.025059] (navigation_core) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_core/navigation_core.egg-info/top_level.txt\n'}
+[3.025445] (rsl_roboteq) StdoutLine: {'line': b'writing requirements to ../../build/rsl_roboteq/rsl_roboteq.egg-info/requires.txt\n'}
+[3.025652] (rsl_roboteq) StdoutLine: {'line': b'writing top-level names to ../../build/rsl_roboteq/rsl_roboteq.egg-info/top_level.txt\n'}
+[3.027753] (navigation_core) StdoutLine: {'line': b"writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'\n"}
+[3.057068] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.058354] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.058623] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[3.058794] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[3.058948] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[3.064870] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[3.065646] (navigation_core) StdoutLine: {'line': b"reading manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'\n"}
+[3.067644] (navigation_core) StdoutLine: {'line': b"writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'\n"}
+[3.068984] (navigation_core) StdoutLine: {'line': b'running build\n'}
+[3.069225] (navigation_core) StdoutLine: {'line': b'running build_py\n'}
+[3.069390] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/build/navigation_core/build\n'}
+[3.069550] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/build/navigation_core/build/lib\n'}
+[3.071432] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core\n'}
+[3.071616] (navigation_core) StdoutLine: {'line': b'copying navigation_core/__init__.py -> /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core\n'}
+[3.072701] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[3.072881] (rsl_roboteq) StdoutLine: {'line': b"reading manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'\n"}
+[3.073051] (navigation_core) StdoutLine: {'line': b'copying navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core\n'}
+[3.073199] (navigation_core) StdoutLine: {'line': b'running install\n'}
+[3.073334] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.077993] (rsl_roboteq) StdoutLine: {'line': b"writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'\n"}
+[3.078202] (rsl_roboteq) StdoutLine: {'line': b'running build\n'}
+[3.078349] (rsl_roboteq) StdoutLine: {'line': b'running build_py\n'}
+[3.078488] (navigation_core) StdoutLine: {'line': b'running install_lib\n'}
+[3.078800] (rsl_roboteq) StdoutLine: {'line': b'running install\n'}
+[3.079004] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core\n'}
+[3.079154] (navigation_core) StdoutLine: {'line': b'copying /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core/__init__.py -> /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core\n'}
+[3.079391] (navigation_core) StdoutLine: {'line': b'copying /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core\n'}
+[3.079585] (locomotion_core) StdoutLine: {'line': b"removing '/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.079740] (rsl_roboteq) StdoutLine: {'line': b'running install_lib\n'}
+[3.079878] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[3.080017] (navigation_core) StdoutLine: {'line': b'byte-compiling /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/__init__.py to __init__.cpython-38.pyc\n'}
+[3.080179] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[3.080313] (navigation_core) StdoutLine: {'line': b'byte-compiling /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/process_scan.py to process_scan.cpython-38.pyc\n'}
+[3.080639] (rsl_roboteq) StdoutLine: {'line': b'running install_data\n'}
+[3.080831] (navigation_core) StdoutLine: {'line': b'running install_data\n'}
+[3.080979] (rsl_roboteq) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.081212] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/install/navigation_core/share/ament_index\n'}
+[3.081355] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/install/navigation_core/share/ament_index/resource_index\n'}
+[3.081493] (navigation_core) StdoutLine: {'line': b'creating /home/pioneer-i/ros2_ws/install/navigation_core/share/ament_index/resource_index/packages\n'}
+[3.081628] (navigation_core) StdoutLine: {'line': b'copying resource/navigation_core -> /home/pioneer-i/ros2_ws/install/navigation_core/share/ament_index/resource_index/packages\n'}
+[3.081760] (navigation_core) StdoutLine: {'line': b'copying package.xml -> /home/pioneer-i/ros2_ws/install/navigation_core/share/navigation_core\n'}
+[3.081891] (navigation_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.082129] (rsl_roboteq) StdoutLine: {'line': b"removing '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.082278] (rsl_roboteq) StdoutLine: {'line': b'Copying ../../build/rsl_roboteq/rsl_roboteq.egg-info to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages/rsl_roboteq-0.0.0-py3.8.egg-info\n'}
+[3.082948] (navigation_core) StdoutLine: {'line': b'Copying ../../build/navigation_core/navigation_core.egg-info to /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info\n'}
+[3.084011] (rsl_roboteq) StdoutLine: {'line': b'running install_scripts\n'}
+[3.085654] (navigation_core) StdoutLine: {'line': b'running install_scripts\n'}
+[3.114704] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core\n'}
+[3.115676] (locomotion_core) StdoutLine: {'line': b'Installing movebase_kinematics script to /home/pioneer-i/ros2_ws/install/locomotion_core/lib/locomotion_core\n'}
+[3.116486] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-i/ros2_ws/build/locomotion_core/install.log'\n"}
+[3.120620] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.122640] (navigation_core) StdoutLine: {'line': b'Installing lidar_node script to /home/pioneer-i/ros2_ws/install/navigation_core/lib/navigation_core\n'}
+[3.123452] (-) TimerEvent: {}
+[3.124024] (rsl_roboteq) StdoutLine: {'line': b'Installing roboteq_node script to /home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/rsl_roboteq\n'}
+[3.124299] (navigation_core) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-i/ros2_ws/build/navigation_core/install.log'\n"}
+[3.134224] (rsl_roboteq) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-i/ros2_ws/build/rsl_roboteq/install.log'\n"}
+[3.192745] (navigation_core) CommandEnded: {'returncode': 0}
+[3.196094] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.199482] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.206761] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.215145] (navigation_core) JobEnded: {'identifier': 'navigation_core', 'rc': 0}
+[3.222346] (locomotion_core) CommandEnded: {'returncode': 0}
+[3.223538] (-) TimerEvent: {}
+[3.249782] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[3.252133] (rsl_roboteq) CommandEnded: {'returncode': 0}
+[3.269786] (rsl_roboteq) JobEnded: {'identifier': 'rsl_roboteq', 'rc': 0}
+[3.323731] (-) TimerEvent: {}
+[3.360814] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.362822] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.423860] (-) TimerEvent: {}
+[3.627539] (-) TimerEvent: {}
+[3.728212] (-) TimerEvent: {}
+[3.828862] (-) TimerEvent: {}
+[3.929566] (-) TimerEvent: {}
+[3.930375] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.964339] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.965447] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.029652] (-) TimerEvent: {}
+[4.111400] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.129743] (-) TimerEvent: {}
+[4.230216] (-) TimerEvent: {}
+[4.304949] (rplidar_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.305510] (rplidar_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.330293] (-) TimerEvent: {}
+[4.430801] (-) TimerEvent: {}
+[4.531617] (-) TimerEvent: {}
+[4.632392] (-) TimerEvent: {}
+[4.733150] (-) TimerEvent: {}
+[4.833940] (-) TimerEvent: {}
+[4.934744] (-) TimerEvent: {}
+[5.035521] (-) TimerEvent: {}
+[5.136170] (-) TimerEvent: {}
+[5.152876] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.236335] (-) TimerEvent: {}
+[5.336957] (-) TimerEvent: {}
+[5.403491] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.419823] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.437017] (-) TimerEvent: {}
+[5.537456] (-) TimerEvent: {}
+[5.638129] (-) TimerEvent: {}
+[5.738771] (-) TimerEvent: {}
+[5.839496] (-) TimerEvent: {}
+[5.883712] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.939632] (-) TimerEvent: {}
+[6.040231] (-) TimerEvent: {}
+[6.081244] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.140310] (-) TimerEvent: {}
+[6.240796] (-) TimerEvent: {}
+[6.341397] (-) TimerEvent: {}
+[6.442058] (-) TimerEvent: {}
+[6.522611] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.542162] (-) TimerEvent: {}
+[6.642739] (-) TimerEvent: {}
+[6.743378] (-) TimerEvent: {}
+[6.792529] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.797087] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.800985] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.843544] (-) TimerEvent: {}
+[6.944197] (-) TimerEvent: {}
+[7.044851] (-) TimerEvent: {}
+[7.090821] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.091358] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.145030] (-) TimerEvent: {}
+[7.245712] (-) TimerEvent: {}
+[7.346438] (-) TimerEvent: {}
+[7.447134] (-) TimerEvent: {}
+[7.447782] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.448228] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.547297] (-) TimerEvent: {}
+[7.647979] (-) TimerEvent: {}
+[7.748630] (-) TimerEvent: {}
+[7.849288] (-) TimerEvent: {}
+[7.933355] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.933884] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.949420] (-) TimerEvent: {}
+[8.050047] (-) TimerEvent: {}
+[8.150617] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.151275] (-) TimerEvent: {}
+[8.153766] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.251474] (-) TimerEvent: {}
+[8.352075] (-) TimerEvent: {}
+[8.452622] (-) TimerEvent: {}
+[8.553279] (-) TimerEvent: {}
+[8.653958] (-) TimerEvent: {}
+[8.754639] (-) TimerEvent: {}
+[8.855317] (-) TimerEvent: {}
+[8.955960] (-) TimerEvent: {}
+[9.056567] (-) TimerEvent: {}
+[9.157144] (-) TimerEvent: {}
+[9.257742] (-) TimerEvent: {}
+[9.358338] (-) TimerEvent: {}
+[9.458889] (-) TimerEvent: {}
+[9.559538] (-) TimerEvent: {}
+[9.579878] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.659663] (-) TimerEvent: {}
+[9.760211] (-) TimerEvent: {}
+[9.860797] (-) TimerEvent: {}
+[9.961409] (-) TimerEvent: {}
+[10.061992] (-) TimerEvent: {}
+[10.077035] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[10.162142] (-) TimerEvent: {}
+[10.262786] (-) TimerEvent: {}
+[10.363417] (-) TimerEvent: {}
+[10.376890] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.411741] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[10.414954] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/pioneer-i/ros2_ws/build/rplidar_ros\n'}
+[10.436950] (rplidar_ros) CommandEnded: {'returncode': 0}
+[10.438443] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[10.439244] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-i/ros2_ws/build/rplidar_ros', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-i/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[10.463634] (-) TimerEvent: {}
+[10.524213] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidar_client\x1b[0m\n'}
+[10.524759] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidar_node\x1b[0m\n'}
+[10.525241] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidar_composition\x1b[0m\n'}
+[10.563781] (-) TimerEvent: {}
+[10.664443] (-) TimerEvent: {}
+[10.765208] (-) TimerEvent: {}
+[10.770574] (rplidar_ros) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o\x1b[0m\n'}
+[10.771215] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[10.793419] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[10.807494] (rplidar_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[10.811670] (rplidar_ros) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[10.825943] (rplidar_ros) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[10.865381] (-) TimerEvent: {}
+[10.966100] (-) TimerEvent: {}
+[11.067109] (-) TimerEvent: {}
+[11.168138] (-) TimerEvent: {}
+[11.268853] (-) TimerEvent: {}
+[11.369584] (-) TimerEvent: {}
+[11.470317] (-) TimerEvent: {}
+[11.571034] (-) TimerEvent: {}
+[11.671808] (-) TimerEvent: {}
+[11.740584] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[11.741311] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[11.741525] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[11.741690] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[11.741840] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[11.742001] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.742185] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.745918] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[11.746491] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[11.746693] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[11.746858] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[11.747010] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[11.747196] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.747345] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.772582] (-) TimerEvent: {}
+[11.873358] (-) TimerEvent: {}
+[11.874184] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.874604] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.874796] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[11.874960] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.875223] (rplidar_ros) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[11.875556] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.875747] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.875900] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[11.876043] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[11.876579] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.876824] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.876981] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[11.877124] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.877262] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.877398] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.877529] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[11.877690] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.973550] (-) TimerEvent: {}
+[12.074316] (-) TimerEvent: {}
+[12.175062] (-) TimerEvent: {}
+[12.211457] (rplidar_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[12.233086] (rplidar_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[12.275255] (-) TimerEvent: {}
+[12.276388] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[12.276796] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[12.276973] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[12.277128] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.277325] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.277465] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.277736] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[12.277908] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[12.278172] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.278329] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.278488] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.375442] (-) TimerEvent: {}
+[12.476465] (-) TimerEvent: {}
+[12.485100] (rplidar_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[12.576673] (-) TimerEvent: {}
+[12.678212] (-) TimerEvent: {}
+[12.724273] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[12.724811] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[12.725003] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.725365] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[12.725540] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.725701] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.725845] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.725983] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[12.726147] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[12.726282] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.726414] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[12.726662] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.726821] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.726958] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.778405] (-) TimerEvent: {}
+[12.812458] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[12.812998] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.813192] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[12.813362] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))\x1b[01;35m\x1b[Kproc\x1b[m\x1b[K, data);\n'}
+[12.813525] (rplidar_ros) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.813877] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.814232] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.814400] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[12.814552] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.852826] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[12.853532] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[12.853745] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.853906] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[12.854091] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.854570] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.854768] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.854920] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[12.855062] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[12.855199] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.855334] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[12.855467] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.855602] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.855729] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.878613] (-) TimerEvent: {}
+[12.979696] (-) TimerEvent: {}
+[13.009029] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.009836] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.010381] (rplidar_ros) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[13.010598] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.010756] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.010907] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.011052] (rplidar_ros) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[13.011191] (rplidar_ros) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[13.013229] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.013789] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.013985] (rplidar_ros) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[13.014181] (rplidar_ros) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.014367] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.014519] (rplidar_ros) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[13.014662] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.053320] (rplidar_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[13.079911] (-) TimerEvent: {}
+[13.181498] (-) TimerEvent: {}
+[13.193549] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[13.194284] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[13.194619] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[13.194899] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[13.195175] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[13.195477] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.195731] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.202713] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[13.203415] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[13.203789] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[13.204056] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[13.204331] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[13.204592] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.204849] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.281721] (-) TimerEvent: {}
+[13.285011] (rplidar_ros) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[13.381945] (-) TimerEvent: {}
+[13.396860] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.398092] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:273:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.399052] (rplidar_ros) StderrLine: {'line': b'  273 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.399905] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.408556] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.409901] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:286:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.411144] (rplidar_ros) StderrLine: {'line': b'  286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.412083] (rplidar_ros) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.416035] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.417317] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:347:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.418356] (rplidar_ros) StderrLine: {'line': b'  347 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[13.419251] (rplidar_ros) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.428774] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.430126] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:534:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.431088] (rplidar_ros) StderrLine: {'line': b'  534 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.431974] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.434560] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.435558] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:579:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.436451] (rplidar_ros) StderrLine: {'line': b'  579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.437322] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.441390] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.442550] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:592:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.443486] (rplidar_ros) StderrLine: {'line': b'  592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.444333] (rplidar_ros) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.445587] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.446527] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:627:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.447465] (rplidar_ros) StderrLine: {'line': b'  627 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[13.448326] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.451408] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.452430] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:653:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.453325] (rplidar_ros) StderrLine: {'line': b'  653 |         sl_result getHealth(sl_lidar_response_device_health_t& health, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[13.454226] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.460112] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.461408] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:743:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.462327] (rplidar_ros) StderrLine: {'line': b'  743 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[13.463166] (rplidar_ros) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.481635] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.482215] (-) TimerEvent: {}
+[13.629616] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1382:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[13.630591] (-) TimerEvent: {}
+[13.631314] (rplidar_ros) StderrLine: {'line': b' 1382 |                     if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[13.631583] (rplidar_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.631746] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1391:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[13.631941] (rplidar_ros) StderrLine: {'line': b' 1391 |                     if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[13.632088] (rplidar_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.632226] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.632372] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1589:116:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[13.632509] (rplidar_ros) StderrLine: {'line': b' 1589 |                     const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.632676] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.632811] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[13.632942] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[13.633070] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[13.633197] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[13.633345] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.633476] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.633603] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[13.633729] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[13.633855] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[13.633983] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.638154] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.676356] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[13.677094] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[13.677329] (rplidar_ros) StderrLine: {'line': b'   72 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[13.677528] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.677677] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::printDeprecationWarn(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[13.677823] (rplidar_ros) StderrLine: {'line': b'   59 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[13.677961] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.730817] (-) TimerEvent: {}
+[13.827048] (rplidar_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[13.831010] (-) TimerEvent: {}
+[13.864162] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.864703] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.864903] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[13.865066] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.867083] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.867482] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.867662] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[13.867810] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.867950] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.868089] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.868222] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[13.868355] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[13.868487] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.868671] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.868802] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[13.868932] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[13.931228] (-) TimerEvent: {}
+[14.032016] (-) TimerEvent: {}
+[14.133387] (-) TimerEvent: {}
+[14.173015] (rplidar_ros) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[14.233602] (-) TimerEvent: {}
+[14.245863] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[14.247268] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.248119] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[14.248954] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.249769] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.250631] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.252858] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.253823] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[14.254727] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.255613] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.256463] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.267164] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.274674] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[14.291008] (rplidar_ros) StderrLine: {'line': b'   94 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[14.291244] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.333828] (-) TimerEvent: {}
+[14.424456] (rplidar_ros) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[14.434049] (-) TimerEvent: {}
+[14.519340] (rplidar_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[14.534216] (-) TimerEvent: {}
+[14.635545] (-) TimerEvent: {}
+[14.736878] (-) TimerEvent: {}
+[14.787937] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[14.790195] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[14.790444] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[14.790607] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[14.790760] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.790909] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.791047] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.791183] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[14.791317] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[14.791452] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[14.791581] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[14.791709] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.791838] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.791964] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.837087] (-) TimerEvent: {}
+[14.909402] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[14.909978] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.910208] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[14.910370] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.910562] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.910707] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.914792] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.915261] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[14.915445] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.915652] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.915797] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.928360] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.928960] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:102:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[14.929156] (rplidar_ros) StderrLine: {'line': b'  102 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[14.929311] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.937308] (-) TimerEvent: {}
+[14.977765] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[14.978363] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.978578] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[14.979016] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[14.979387] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.979568] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.979722] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.979870] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.980016] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[14.980154] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[14.980292] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.980431] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.980566] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.037526] (-) TimerEvent: {}
+[15.138881] (-) TimerEvent: {}
+[15.200615] (rplidar_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[15.209595] (rplidar_ros) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[15.229488] (rplidar_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[15.239080] (-) TimerEvent: {}
+[15.257570] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.258193] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[15.258416] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[15.258586] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.258748] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.258898] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.262922] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[15.263353] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[15.263536] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.263697] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.263842] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.271804] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.272507] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[15.272869] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[15.273176] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[15.273477] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.273820] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.274127] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.275892] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[15.276381] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[15.276753] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[15.277062] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.277377] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.277753] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.339260] (-) TimerEvent: {}
+[15.440337] (-) TimerEvent: {}
+[15.444181] (rplidar_ros) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[15.540548] (-) TimerEvent: {}
+[15.641886] (-) TimerEvent: {}
+[15.743233] (-) TimerEvent: {}
+[15.815226] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[15.815778] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.815976] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.816486] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[15.816725] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.816895] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.817051] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.817200] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.817342] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[15.817651] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.817919] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[15.818229] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.818489] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.818746] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.829163] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[15.829776] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.829958] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.830153] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[15.830304] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.830457] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.830864] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.831036] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.831183] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[15.831318] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.831449] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[15.831581] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.831711] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.831861] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.843423] (-) TimerEvent: {}
+[15.924056] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[15.924684] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.924878] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[15.925094] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))\x1b[01;35m\x1b[Kproc\x1b[m\x1b[K, data);\n'}
+[15.925249] (rplidar_ros) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.925866] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.926223] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.926393] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[15.926543] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[15.943822] (-) TimerEvent: {}
+[15.992925] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.994064] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.994616] (rplidar_ros) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[15.994938] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.995929] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.996275] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.996565] (rplidar_ros) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[15.996832] (rplidar_ros) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[15.999547] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.000041] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.000350] (rplidar_ros) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[16.000627] (rplidar_ros) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.000990] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.001283] (rplidar_ros) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[16.001543] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.025297] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[16.026082] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[16.026278] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[16.026436] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[16.026584] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.026765] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.027267] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.027433] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[16.027589] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[16.027763] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[16.027900] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[16.028033] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.028165] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.028290] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.044012] (-) TimerEvent: {}
+[16.144819] (-) TimerEvent: {}
+[16.174900] (rplidar_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[16.176276] (rplidar_ros) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[16.198782] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.199316] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:273:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.199498] (rplidar_ros) StderrLine: {'line': b'  273 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.199654] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.204655] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.205071] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:286:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.205245] (rplidar_ros) StderrLine: {'line': b'  286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.205403] (rplidar_ros) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.207298] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.207597] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:347:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.207760] (rplidar_ros) StderrLine: {'line': b'  347 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[16.207907] (rplidar_ros) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.212499] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.212828] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:534:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.213027] (rplidar_ros) StderrLine: {'line': b'  534 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.213185] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.215116] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.215570] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:579:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.215737] (rplidar_ros) StderrLine: {'line': b'  579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.215886] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.216038] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.216211] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:592:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.216365] (rplidar_ros) StderrLine: {'line': b'  592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.216502] (rplidar_ros) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.216631] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.216764] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:627:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.216907] (rplidar_ros) StderrLine: {'line': b'  627 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[16.221287] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.221485] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.221631] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:653:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.221769] (rplidar_ros) StderrLine: {'line': b'  653 |         sl_result getHealth(sl_lidar_response_device_health_t& health, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[16.221901] (rplidar_ros) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.222065] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.222208] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:743:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.222651] (rplidar_ros) StderrLine: {'line': b'  743 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[16.222804] (rplidar_ros) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.236681] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.237517] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1382:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[16.237711] (rplidar_ros) StderrLine: {'line': b' 1382 |                     if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[16.237871] (rplidar_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.238116] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1391:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[16.238311] (rplidar_ros) StderrLine: {'line': b' 1391 |                     if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[16.238455] (rplidar_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.241946] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.242348] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1589:116:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[16.242517] (rplidar_ros) StderrLine: {'line': b' 1589 |                     const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.242681] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.244891] (-) TimerEvent: {}
+[16.345445] (-) TimerEvent: {}
+[16.410073] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[16.410640] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[16.410838] (rplidar_ros) StderrLine: {'line': b'   72 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[16.411006] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.411159] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::printDeprecationWarn(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[16.411310] (rplidar_ros) StderrLine: {'line': b'   59 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[16.411453] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.445639] (-) TimerEvent: {}
+[16.546424] (-) TimerEvent: {}
+[16.612548] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[16.613372] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[16.613577] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[16.613746] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.615549] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.615794] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.615952] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[16.616097] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[16.616236] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.616372] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.616526] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.619626] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[16.619948] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[16.620111] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[16.621420] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.621606] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.621755] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.621891] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[16.622067] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[16.622216] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.622350] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.622479] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.630333] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.630874] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.631104] (rplidar_ros) StderrLine: {'line': b'   94 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[16.631264] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.646613] (-) TimerEvent: {}
+[16.747906] (-) TimerEvent: {}
+[16.848634] (-) TimerEvent: {}
+[16.900118] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[16.948820] (-) TimerEvent: {}
+[17.049527] (-) TimerEvent: {}
+[17.150290] (-) TimerEvent: {}
+[17.251018] (-) TimerEvent: {}
+[17.302976] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[17.303573] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.303762] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[17.303964] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.304126] (rplidar_ros) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.304273] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.305781] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.306045] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[17.306212] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.306357] (rplidar_ros) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.306494] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.313269] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.313760] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pioneer-i/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:102:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.313938] (rplidar_ros) StderrLine: {'line': b'  102 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[17.314120] (rplidar_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[17.351181] (-) TimerEvent: {}
+[17.451954] (-) TimerEvent: {}
+[17.552752] (-) TimerEvent: {}
+[17.653473] (-) TimerEvent: {}
+[17.754193] (-) TimerEvent: {}
+[17.854935] (-) TimerEvent: {}
+[17.955720] (-) TimerEvent: {}
+[18.056451] (-) TimerEvent: {}
+[18.157166] (-) TimerEvent: {}
+[18.257851] (-) TimerEvent: {}
+[18.358558] (-) TimerEvent: {}
+[18.459250] (-) TimerEvent: {}
+[18.559986] (-) TimerEvent: {}
+[18.727672] (-) TimerEvent: {}
+[18.828382] (-) TimerEvent: {}
+[18.929069] (-) TimerEvent: {}
+[19.029775] (-) TimerEvent: {}
+[19.130517] (-) TimerEvent: {}
+[19.231222] (-) TimerEvent: {}
+[19.331924] (-) TimerEvent: {}
+[19.432613] (-) TimerEvent: {}
+[19.533309] (-) TimerEvent: {}
+[19.634035] (-) TimerEvent: {}
+[19.734746] (-) TimerEvent: {}
+[19.835480] (-) TimerEvent: {}
+[19.936243] (-) TimerEvent: {}
+[20.036969] (-) TimerEvent: {}
+[20.137686] (-) TimerEvent: {}
+[20.222360] (rplidar_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[20.237854] (-) TimerEvent: {}
+[20.338607] (-) TimerEvent: {}
+[20.439304] (-) TimerEvent: {}
+[20.539975] (-) TimerEvent: {}
+[20.587745] (rplidar_ros) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable rplidar_node\x1b[0m\n'}
+[20.640188] (-) TimerEvent: {}
+[20.740980] (-) TimerEvent: {}
+[20.841694] (-) TimerEvent: {}
+[20.877253] (rplidar_ros) StdoutLine: {'line': b'[ 96%] Built target rplidar_composition\n'}
+[20.941882] (-) TimerEvent: {}
+[21.013776] (rplidar_ros) StdoutLine: {'line': b'[ 96%] Built target rplidar_node\n'}
+[21.041947] (-) TimerEvent: {}
+[21.142376] (-) TimerEvent: {}
+[21.242815] (-) TimerEvent: {}
+[21.343477] (-) TimerEvent: {}
+[21.444131] (-) TimerEvent: {}
+[21.544793] (-) TimerEvent: {}
+[21.645475] (-) TimerEvent: {}
+[21.746152] (-) TimerEvent: {}
+[21.846821] (-) TimerEvent: {}
+[21.947510] (-) TimerEvent: {}
+[22.048233] (-) TimerEvent: {}
+[22.149046] (-) TimerEvent: {}
+[22.249775] (-) TimerEvent: {}
+[22.350462] (-) TimerEvent: {}
+[22.451381] (-) TimerEvent: {}
+[22.489953] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_client\x1b[0m\n'}
+[22.551531] (-) TimerEvent: {}
+[22.652214] (-) TimerEvent: {}
+[22.752900] (-) TimerEvent: {}
+[22.853589] (-) TimerEvent: {}
+[22.948760] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_client\n'}
+[22.953692] (-) TimerEvent: {}
+[23.054287] (-) TimerEvent: {}
+[23.094559] (rplidar_ros) CommandEnded: {'returncode': 0}
+[23.154496] (-) TimerEvent: {}
+[23.175686] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[23.176635] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-i/ros2_ws/build/rplidar_ros'], 'cwd': '/home/pioneer-i/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-i'), ('SSH_AGENT_PID', '2165'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-i'), ('OLDPWD', '/home/pioneer-i'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-i'), ('JOURNAL_STREAM', '7:52601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-i'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-i/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-i:@/tmp/.ICE-unix/2200,unix/pioneer-i:/tmp/.ICE-unix/2200'), ('INVOCATION_ID', '10d362ca0ab242bd9fcc7fa7db85af36'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4477c203_bd55_403e_aef2_3e344348ac0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-i/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pioneer-i/ros2_ws/install/rsl_roboteq/lib/python3.8/site-packages:/home/pioneer-i/ros2_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pioneer-i/ros2_ws/install/teleop_twist_joy:/home/pioneer-i/ros2_ws/install/rover_launch:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy')]), 'shell': False}
+[23.200204] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.200755] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[23.200983] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[23.201197] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[23.201437] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[23.201632] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[23.201831] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[23.202039] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[23.202274] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[23.202475] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[23.202666] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[23.202853] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[23.203035] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[23.203220] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[23.203466] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[23.203765] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[23.204184] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[23.204392] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[23.204595] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[23.204847] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[23.205050] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[23.205202] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[23.205345] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[23.205532] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[23.205674] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[23.205813] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[23.205948] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[23.208416] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""\n'}
+[23.208662] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[23.211475] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[23.211789] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[23.215673] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/pioneer-i/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client" to ""\n'}
+[23.216033] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[23.216370] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[23.216732] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[23.217021] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[23.217304] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[23.217594] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[23.217867] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[23.218170] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[23.218441] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[23.218724] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[23.218988] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[23.219416] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[23.219734] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.219998] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.220274] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[23.220475] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[23.220738] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/pioneer-i/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[23.225699] (rplidar_ros) CommandEnded: {'returncode': 0}
+[23.257161] (-) TimerEvent: {}
+[23.358225] (-) TimerEvent: {}
+[23.392690] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[23.422031] (-) EventReactorShutdown: {}

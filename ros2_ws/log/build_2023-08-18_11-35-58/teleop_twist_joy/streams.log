@@ -1,0 +1,42 @@
+[1.608s] Invoking command in '/home/pioneer-i/ros2_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/teleop_twist_joy -- -j6 -l6
+[1.743s] [ 50%] Built target teleop_twist_joy
+[1.838s] [100%] Built target teleop_twist_joy_node
+[1.925s] Invoked command in '/home/pioneer-i/ros2_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-i/ros2_ws/build/teleop_twist_joy -- -j6 -l6
+[2.019s] Invoking command in '/home/pioneer-i/ros2_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/teleop_twist_joy
+[2.039s] -- Install configuration: ""
+[2.041s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[2.044s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[2.049s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include
+[2.049s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy
+[2.050s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[2.051s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[2.053s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[2.053s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[2.053s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[2.053s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[2.053s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.yaml
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[2.054s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[2.064s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[2.064s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[2.065s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[2.065s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[2.065s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[2.065s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[2.066s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[2.066s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[2.073s] -- Installing: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[2.073s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[2.073s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[2.073s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.074s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[2.074s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[2.074s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[2.074s] -- Up-to-date: /home/pioneer-i/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[2.101s] Invoked command in '/home/pioneer-i/ros2_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-i/ros2_ws/install/rsl_roboteq:/home/pioneer-i/ros2_ws/install/navigation_core:/home/pioneer-i/ros2_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-i/ros2_ws/build/teleop_twist_joy

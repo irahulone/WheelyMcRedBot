@@ -1,0 +1,24 @@
+[2.659s] Invoking command in '/home/pioneer-i/ros2_ws/src/navigation_core': PYTHONPATH=/home/pioneer-i/ros2_ws/build/navigation_core/prefix_override:/home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core build --build-base /home/pioneer-i/ros2_ws/build/navigation_core/build install --record /home/pioneer-i/ros2_ws/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed
+[3.059s] running egg_info
+[3.059s] writing ../../build/navigation_core/navigation_core.egg-info/PKG-INFO
+[3.060s] writing dependency_links to ../../build/navigation_core/navigation_core.egg-info/dependency_links.txt
+[3.061s] writing entry points to ../../build/navigation_core/navigation_core.egg-info/entry_points.txt
+[3.061s] writing requirements to ../../build/navigation_core/navigation_core.egg-info/requires.txt
+[3.062s] writing top-level names to ../../build/navigation_core/navigation_core.egg-info/top_level.txt
+[3.127s] reading manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[3.128s] writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[3.129s] running build
+[3.129s] running build_py
+[3.129s] copying navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core
+[3.130s] running install
+[3.131s] running install_lib
+[3.133s] copying /home/pioneer-i/ros2_ws/build/navigation_core/build/lib/navigation_core/process_scan.py -> /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core
+[3.134s] byte-compiling /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/process_scan.py to process_scan.cpython-38.pyc
+[3.137s] running install_data
+[3.143s] running install_egg_info
+[3.149s] removing '/home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info' (and everything under it)
+[3.150s] Copying ../../build/navigation_core/navigation_core.egg-info to /home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info
+[3.150s] running install_scripts
+[3.183s] Installing lidar_node script to /home/pioneer-i/ros2_ws/install/navigation_core/lib/navigation_core
+[3.186s] writing list of installed files to '/home/pioneer-i/ros2_ws/build/navigation_core/install.log'
+[3.293s] Invoked command in '/home/pioneer-i/ros2_ws/src/navigation_core' returned '0': PYTHONPATH=/home/pioneer-i/ros2_ws/build/navigation_core/prefix_override:/home/pioneer-i/ros2_ws/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core build --build-base /home/pioneer-i/ros2_ws/build/navigation_core/build install --record /home/pioneer-i/ros2_ws/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed

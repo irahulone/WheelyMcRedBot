@@ -1,0 +1,4 @@
+[console_scripts]
+cmd_roboteq = locomotion_core.cmd_roboteq:main
+movebase_kinematics = locomotion_core.movebase_kinematics:main
+
